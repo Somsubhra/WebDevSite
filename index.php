@@ -60,7 +60,13 @@
                 <!--About section-->
                 <section id="about">
                     <h2>About</h2>
-                    <p>The About page of WebDev Club goes here...</p>
+                    <div>
+                        <h3>The About page of WebDev Club goes here.djsbds jshdjshd jdhjsdjs dsjdsjds djsdjshds ds
+                            dshdhbsdbsds
+                            dsdsd
+                            sdsdsdsdnbhfdv jvfbvjnfvkfnkbmfkj
+                            dsfbdjbfjdv dkfng</h3>
+                    </div>
                 </section>
 
                 <!--Join section-->
@@ -99,14 +105,18 @@
                 <!--Projects section-->
                 <section id="projects">
                     <h2>Projects</h2>
-                    <p>The Projects page of the WebDev club goes here...</a>
+                    <div class="project">
+                        <h4>Sample Project
+                        <h3><span>We did a sample project</span></h3>
+                    </div>
                 </section>
 
                 <!--Members section-->
                 <section id="members">
                     <h2>Community</h2>
                     <div class="member">
-                        <h3>Mentor <span>Prof. Anil Roy</span></h3>
+                        <h4>Mentor</h4>
+                        <h3><span>Prof. Anil Roy</span></h3>
                     </div>
                 </section>
 

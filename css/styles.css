@@ -266,7 +266,7 @@ footer h2,
 #sponsors h3 {
   font-family: 'BebasNeueRegular';
 }
-p, #contact, #join, #headline, #members article {
+p, #contact, #join, #headline, #members, article {
   font-family: 'FrutigerLTStd-Roman';
 }
 h1,
@@ -529,151 +529,7 @@ section h2 {
 section .bg-image {
   position: absolute;
 }
-section#projects a.project {
-  left: 0;
-  position: absolute;
-  top: -170px;
-}
-section#projects .column {
-  float: left;
-  width: 270px;
-  margin-right: 10px;
-}
-section#projects .column img {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-section#projects .column h3 {
-  font-size: 1em;
-  color: #D94A3C;
-  font-weight: bold;
-}
-section#projects .column h4 {
-  color: #222222;
-  margin-bottom: 5px;
-}
-section#projects .column h4 span {
-  font-size: 0.9em;
-  color: #666;
-}
-section#projects .column h4 span em {
-  font-weight: bold;
-}
-section#projects .column.last {
-  margin-right: 0;
-}
-section#projects .column ul {
-  margin-bottom: 10px;
-  cursor: default;
-}
-section#projects .column ul li {
-  float: none;
-  height: auto;
-  color: #db493c;
-  list-style: square inside;
-  font-size: 0.8em;
-  line-height: 1.5em;
-  margin: 0;
-  cursor: default;
-}
-section#projects .column ul li span {
-  color: #000;
-  cursor: default;
-}
-section#projects .training {
-  width: 620px;
-  float: left;
-}
-section#projects .training ul li {
-  background: none repeat scroll 0 0 #EAEAEA;
-  border-radius: 8px 8px 8px 8px;
-  float: right;
-  margin: 0 10px;
-  margin-bottom: 10px;
-  padding: 10px 20px 20px;
-  list-style: none;
-}
-section#projects .training ul li h3 {
-  color: #D94A3C;
-  font-size: 1.9em;
-  margin-bottom: 10px;
-}
-section#projects .training ul li h3 li {
-  background-color: transparent;
-  border-radius: 0;
-  margin: 0;
-  padding: 0;
-  margin-left: 5px;
-  font-size: 0.45em;
-  color: #1EA2C9;
-  text-align: right;
-}
-section#projects .training ul li h3 li a {
-  font-size: 1.6em;
-}
-section#projects .training ul li h3 li span {
-  display: block;
-  color: #999;
-}
-section#projects .training ul li .modal {
-  position: relative;
-}
-section#projects .training ul li .modal a.buy-ticket {
-  background: url("../img/tickets_icon_small.png") no-repeat scroll 5px 7px #db493c;
-  border: 2px solid #fff;
-  color: #FFFFFF;
-  position: absolute;
-  bottom: 5px;
-  right: 10px;
-  font-size: 1.8em;
-  line-height: 1em;
-  padding-bottom: 5px;
-  padding-left: 40px;
-  padding-top: 8px;
-  text-decoration: none;
-  font-family: 'BebasNeueRegular';
-  text-shadow: -1px -1px #555555;
-  width: 90px;
-}
-section#projects .training ul li .modal .column {
-  width: 400px;
-  margin-right: 30px;
-}
-section#projects .training ul li .modal .column.last {
-  width: 325px;
-  margin-right: 0px;
-}
-section#projects .training ul li .modal .column em {
-  font-size: 0.7em;
-}
-section#projects .training ul li .modal .column h3 {
-  color: #1DA3C8;
-  font-weight: bold;
-}
-section#projects .training ul li .modal .column h4 {
-  color: #D94A3C;
-  font-weight: bold;
-  margin-top: 13px;
-}
-section#projects .training ul li .modal .column ul {
-  margin-bottom: 5px;
-}
-section#projects .training ul li .modal .column li {
-  background-color: transparent;
-  border-radius: 0;
-  padding: 0;
-  margin-left: 0px;
-  margin-bottom: 0px;
-  float: none;
-  list-style: none;
-  font-size: 0.9em;
-  color: #1DA3C8;
-}
-section#projects .training ul li .modal .column li li {
-  list-style: disc inside none;
-  color: #222;
-  margin-left: 10px;
-}
+
 section#events div {
 	padding:14px 10px;
 	font-family: 'FrutigerLTStd-Roman';
@@ -813,6 +669,56 @@ section#members div.member a:hover {
   text-decoration:none;
 }
 
+section#about div{
+  padding:14px 10px;
+  font-family: 'FrutigerLTStd-Roman';
+  overflow:hidden;
+  width: 800px;
+}
+
+section#about div h3{
+  margin-left: 130px;
+}
+
+section#projects div {
+  padding:14px 10px;
+  font-family: 'FrutigerLTStd-Roman';
+  border-bottom:solid 1px #cdcdcd;
+  overflow:hidden;
+}
+section#projects div a {
+  display:block;
+}
+
+section#projects h4 {
+  width:130px;
+  float:left;
+  font-size:1.4em;
+}
+section#projects div h3 {
+  margin-left:130px;
+  font-size:18px;
+}
+
+section#projects div.project h3,
+section#projects div.project h3 a,
+section#projects div.project h4 {
+  color:#1DA3C8;
+  line-height:1.4em;
+}
+section#projects div.project span {
+  display:block;
+}
+section#projects div.project span {
+  color:#000;
+}
+section#projects div.project a span {
+  color:#000;
+}
+section#projects div.project a:hover {
+  text-decoration:none;
+}
+
 #contact h3{
   margin-left: 130px;
   font-size: 18px;
@@ -822,94 +728,7 @@ section#members div.member a:hover {
   margin-left: 130px;
   font-size: 18px;
 }
-/* Footer */
-footer {
-  font-family: 'FrutigerLTStd-Roman';
-  background: #131b28;
-}
-footer .container {
-  width: 960px;
-  height: 335px;
-  margin-left: auto;
-  margin-right: auto;
-}
-footer .container nav {
-  padding: 20px 0;
-  margin-top: 200px;
-}
-footer .container nav.info {
-  float: right;
-}
-footer .container nav.info a {
-  margin-right: 25px;
-}
-footer .container nav.sections {
-  float: left;
-}
-footer .container nav.sections a {
-  margin-left: 25px;
-}
-footer .container nav.previous {
-  float: left;
-  margin-top: 10px;
-}
-footer .container nav.previous a {
-  margin-left: 25px;
-}
-footer .container nav a, footer .container nav a:visited {
-  color: #fff;
-}
-.qtip-wrapper {
-  font-family: 'FrutigerLTStd-Roman';
-  font-size: 0.85em;
-  line-height: 1.5em;
-}
-.qtip-button {
-  font-size: 0.7em;
-  font-weight: normal;
-}
-.qtip-content a {
-  text-decoration: underline;
-}
-/* ==|== non-semantic helper classes ======================================== */
-.ir {
-  display: block;
-  border: 0;
-  text-indent: -999em;
-  overflow: hidden;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  text-align: left;
-  direction: ltr;
-}
-.ir br {
-  display: none;
-}
-.hidden {
-  display: none !important;
-  visibility: hidden;
-}
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-}
-.invisible {
-  visibility: hidden;
-}
+
 /* ==|== media queries ====================================================== */
 @media only screen and (min-width: 480px) {
   
@@ -964,4 +783,8 @@ footer .container nav a, footer .container nav a:visited {
   h2, h3 {
     page-break-after: avoid;
   }
+}
+
+body{
+  background-color: #555555;
 }
