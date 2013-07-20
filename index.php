@@ -1,3 +1,6 @@
+<?php
+    require_once("./php/contents.php");
+?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -54,18 +57,22 @@
             <div id="wrapper">
                 <div id="headline">
                     <h1>Welcome to <span>WebDev Club@DA-IICT</span></h1>
-                    <p>The brief description of WebDev club goes here.</p>
+                    <p><?php
+                        if($tag_content){
+                            echo($tag_content['content']);
+                        }
+                     ?></p>
                 </div>
 
                 <!--About section-->
                 <section id="about">
                     <h2>About</h2>
                     <div>
-                        <h3>The About page of WebDev Club goes here.djsbds jshdjshd jdhjsdjs dsjdsjds djsdjshds ds
-                            dshdhbsdbsds
-                            dsdsd
-                            sdsdsdsdnbhfdv jvfbvjnfvkfnkbmfkj
-                            dsfbdjbfjdv dkfng</h3>
+                        <h3><?php 
+                        if($about_content){
+                            echo($about_content['content']);
+                        }
+                        ?></h3>
                     </div>
                 </section>
 
@@ -90,16 +97,15 @@
                 <!--Events section-->
                 <section id="events">
                     <h2>Events</h2>
-                    <!--p>The Events page of the WebDev Club goes here...</p-->
-                    <div class="schedule speaker">
-                        <h4>19:30</h4>
-                        <h3>The starting of WebDev Club <span>Prof. Anil Roy</span></h3>
-                    </div>
-
-                    <div class="schedule speaker">
-                        <h4>20:00</h4>
-                        <h3>Introduction to Web2.0 <span>Shrey Sanghavi</span></h3>
-                    </div>
+                    <?php
+                    if($event_content){
+                        while($result = mysql_fetch_assoc($event_content)){
+                            echo("<div class='schedule speaker'>");
+                            echo("<h4>".$result['date']." ".$result['time']."</h4>");
+                            echo("<h3>".$result['topic']." <span>");
+                            echo($result['speaker']."</span></h3></div>");
+                        }}
+                    ?>
                 </section>
 
                 <!--Projects section-->
