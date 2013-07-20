@@ -266,7 +266,7 @@ footer h2,
 #sponsors h3 {
   font-family: 'BebasNeueRegular';
 }
-p, #headline, #members article {
+p, #contact, #join, #headline, #members article {
   font-family: 'FrutigerLTStd-Roman';
 }
 h1,
@@ -310,6 +310,49 @@ a:hover {
   /*background-size:36%; */
 
 }
+
+form{
+  margin-left: 130px;
+}
+
+form input[type="text"]{
+  font-family: 'FrutigerLTStd-Roman';
+  background: #ffffff;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  outline: none;
+  padding: 5px;
+  width: 400px;
+}
+form input[type="email"]{
+  font-family: 'FrutigerLTStd-Roman';
+  background: #ffffff;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  outline: none;
+  padding: 5px;
+  width: 400px;
+}
+
+form input[type="submit"]{
+  background:#db493c;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  color: #000000;
+  display: block;
+  font-family: 'FrutigerLTStd-Roman';
+  padding: 7px 25px;
+}
+
 /* Page wrapper */
 #wrapper {
   width: 960px;
@@ -486,7 +529,7 @@ section h2 {
 section .bg-image {
   position: absolute;
 }
-section#projects a.workshop {
+section#projects a.project {
   left: 0;
   position: absolute;
   top: -170px;
@@ -631,276 +674,6 @@ section#projects .training ul li .modal .column li li {
   color: #222;
   margin-left: 10px;
 }
-section#members {
-  padding-left: 0px;
-  padding-right: 0px;
-  width: 938px;
-  background-color: transparent;
-}
-
-section#members h2 {
-  top: auto;
-}
-section#members ul.list {
-  margin-left: 0;
-  padding: 0;
-  min-height: 200px;
-  padding: 40px 19px 7px 19px;
-  background-color: rgba(243, 249, 250, 0.85);
-}
-section#members ul.list li {
-  list-style: none;
-  float: left;
-  font-family: 'FrutigerLTStd-Roman';
-  margin: 0 10px 0 0;
-  margin-bottom: 420px;
-  font-size: 0.8em;
-  position: relative;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  height: 110px;
-  background-size: 100%;
-}
-section#members ul.list li a {
-  outline: none;
-  color: #000;
-}
-section#members ul.list li a:hover {
-  text-decoration: none;
-}
-section#members ul.list li a.pic {
-  display: block;
-  margin-top: 84px;
-  height: 26px;
-  width: 84px;
-}
-section#members ul.list li span.name {
-  display: block;
-  width: 74px;
-  padding: 5px;
-  min-height: 16px;
-}
-section#members ul.list li#todd {
-  background-image: url("../img/members/84/todd.jpg");
-}
-section#members ul.list li#paul {
-  background-image: url("../img/members/84/paul.jpg");
-}
-section#members ul.list li#jorn {
-  background-image: url("../img/members/84/joern.jpg");
-}
-section#members ul.list li#addy {
-  background-image: url("../img/members/84/addy.jpg");
-}
-section#members ul.list li#ralph {
-  background-image: url("../img/members/84/ralph.jpg");
-}
-section#members ul.list li#doug {
-  background-image: url("../img/members/84/doug.jpg");
-}
-section#members ul.list li#dionben {
-  background-image: url("../img/members/84/dionben.jpg");
-}
-section#members ul.list li#haymo {
-  background-image: url("../img/members/84/haymo.jpg");
-}
-section#members ul.list li#christian {
-  background-image: url("../img/members/84/christian.jpg");
-}
-section#members ul.list li .selected-speaker {
-  display: none;
-}
-section#members ul.list li.selected {
-  height: 215px;
-}
-section#members ul.list li.selected a.pic {
-  display: block;
-  height: 79px;
-  margin-top: 136px;
-  width: 136px;
-}
-section#members ul.list li.selected#todd {
-  background-image: url("../img/members/136/todd.jpg");
-}
-section#members ul.list li.selected#paul {
-  background-image: url("../img/members/136/paul.jpg");
-}
-section#members ul.list li.selected#paul .selected-speaker {
-  left: -113px;
-}
-section#members ul.list li.selected#paul .selected-speaker:after {
-  left: 159px;
-}
-section#members ul.list li.selected#jorn {
-  background-image: url("../img/members/136/joern.jpg");
-}
-section#members ul.list li.selected#jorn .selected-speaker {
-  left: -207px;
-}
-section#members ul.list li.selected#jorn .selected-speaker:after {
-  left: 255px;
-}
-section#members ul.list li.selected#addy {
-  background-image: url("../img/members/136/addy.jpg");
-}
-section#members ul.list li.selected#addy .selected-speaker {
-  left: -301px;
-}
-section#members ul.list li.selected#addy .selected-speaker:after {
-  left: 350px;
-}
-section#members ul.list li.selected#ralph {
-  background-image: url("../img/members/136/ralph.jpg");
-}
-section#members ul.list li.selected#ralph .selected-speaker {
-  left: -395px;
-}
-section#members ul.list li.selected#ralph .selected-speaker:after {
-  left: 445px;
-}
-section#members ul.list li.selected#doug {
-  background-image: url("../img/members/136/doug.jpg");
-}
-section#members ul.list li.selected#doug .selected-speaker {
-  left: -489px;
-}
-section#members ul.list li.selected#doug .selected-speaker:after {
-  left: 540px;
-}
-section#members ul.list li.selected#dionben {
-  background-image: url("../img/members/136/dionben.jpg");
-}
-section#members ul.list li.selected#dionben .selected-speaker {
-  left: -583px;
-}
-section#members ul.list li.selected#dionben .selected-speaker:after {
-  left: 635px;
-}
-section#members ul.list li.selected#haymo {
-  background-image: url("../img/members/136/haymo.jpg");
-}
-section#members ul.list li.selected#haymo .selected-speaker {
-  left: -677px;
-}
-section#members ul.list li.selected#haymo .selected-speaker:after {
-  left: 730px;
-}
-section#members ul.list li.selected#christian {
-  background-image: url("../img/members/136/christian.jpg");
-}
-section#members ul.list li.selected#christian .selected-speaker {
-  left: -771px;
-}
-section#members ul.list li.selected#christian .selected-speaker:after {
-  left: 825px;
-}
-section#members ul.list li.selected span.name {
-  color: #fff;
-  outline: none;
-  width: 136px;
-  text-align: center;
-  display: block;
-  padding: 10px 0 29px 0;
-  font-size: 1.25em;
-  background-color: #db493c;
-  height: 40px;
-}
-section#members ul.list li.selected .selected-speaker {
-  font-family: 'FrutigerLTStd-Roman';
-  width: 904px;
-  left: -19px;
-  clear: both;
-  padding: 14px 15px 19px 19px;
-  margin-top: -8px;
-  display: block;
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.85);
-}
-section#members ul.list li.selected .selected-speaker:after {
-  content: "";
-  border-color: transparent transparent rgba(255, 255, 255, 0.85) transparent;
-  border-style: solid;
-  border-width: 18px;
-  width: 0;
-  height: 0;
-  position: absolute;
-  top: -36px;
-  left: 68px;
-}
-section#members ul.list li.selected .selected-speaker.animating:after {
-  display: none;
-}
-section#members ul.list li.selected .selected-speaker h3.name {
-  color: #d94a3c;
-  font-size: 3.9em;
-  text-transform: uppercase;
-  font-family: 'BebasNeueRegular';
-  line-height: 1.1em;
-  margin-top: 10px;
-  cursor: default;
-}
-section#members ul.list li.selected .selected-speaker p.bio {
-  width: 310px;
-  font-size: 1em;
-  cursor: default;
-}
-section#members ul.list li.selected .selected-speaker p.bio a {
-  font-size: 1em;
-  display: inline;
-}
-section#members ul.list li.selected .selected-speaker p.wider {
-  width: 620px;
-}
-section#members ul.list li.selected .selected-speaker ul {
-  margin-bottom: 10px;
-  cursor: default;
-}
-section#members ul.list li.selected .selected-speaker ul li {
-  float: none;
-  line-height: 1.5em;
-  height: auto;
-  color: #db493c;
-  list-style: square inside;
-  font-size: 1em;
-  margin: 0;
-  cursor: default;
-}
-section#members ul.list li.selected .selected-speaker ul li span {
-  color: #000;
-  cursor: default;
-}
-section#members ul.list li.selected .selected-speaker a {
-  display: block;
-  color: #1DA3C8;
-  font-size: 1.25em;
-}
-section#members ul.list li.selected .selected-speaker article {
-  float: right;
-  width: 540px;
-  padding: 10px 20px 20px 20px;
-  background: #eaeaea;
-  border-radius: 8px;
-  margin: 0 10px;
-  cursor: default;
-}
-section#members ul.list li.selected .selected-speaker article p {
-  font-size: 1em;
-  cursor: default;
-}
-section#members ul.list li.selected .selected-speaker article h3 {
-  color: #1ea2c9;
-  font-size: 2.9em;
-  margin-bottom: 8px;
-  cursor: default;
-}
-section#members ul.list li:hover span.name {
-  background-color: #db493c;
-  color: #fff;
-}
-section#members ul.list li.last {
-  margin: 0px;
-}
 section#events div {
 	padding:14px 10px;
 	font-family: 'FrutigerLTStd-Roman';
@@ -999,6 +772,55 @@ section#events div.after-party .sponsor p {
 	line-height:1em;
 	margin-bottom:0.5em;
 	font-size:0.7em;
+}
+
+section#members div {
+  padding:14px 10px;
+  font-family: 'FrutigerLTStd-Roman';
+  border-bottom:solid 1px #cdcdcd;
+  overflow:hidden;
+}
+section#members div a {
+  display:block;
+}
+
+section#members h4 {
+  width:130px;
+  float:left;
+  font-size:1.4em;
+}
+section#members div h3 {
+  margin-left:130px;
+  font-size:18px;
+}
+
+section#members div.member h3,
+section#members div.member h3 a,
+section#members div.member h4 {
+  color:#1DA3C8;
+  line-height:1.4em;
+}
+section#members div.member span {
+  display:block;
+}
+section#members div.member span {
+  color:#000;
+}
+section#members div.member a span {
+  color:#000;
+}
+section#members div.member a:hover {
+  text-decoration:none;
+}
+
+#contact h3{
+  margin-left: 130px;
+  font-size: 18px;
+}
+
+#join h3{
+  margin-left: 130px;
+  font-size: 18px;
 }
 /* Footer */
 footer {

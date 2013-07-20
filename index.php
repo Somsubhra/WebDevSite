@@ -66,13 +66,34 @@
                 <!--Join section-->
                 <section id="join">
                     <h2>Join</h2>
-                    <p>The Join page of Webdev Club goes here...</p>
+                    <h3>To join us at WebDev club fill in the details below</h3>
+                    <form id="joinform">
+                        <br/><br/>
+
+                        <input type="text" id="name" name="name" placeholder="Enter you name here"></input>
+                        <br/>
+                        <br/>
+                        <input type="email" id="email" name="email" placeholder="Enter your non-DA-IICT email ID here">
+                        <br/><br/>
+                        <input type="text" id="daiictid" name="daiictid" placeholder="Enter your DA-IICT ID here">
+                        <br/><br/>
+                        <input type="submit" target="#" method="get" value="Join!">
+                    </form>
                 </section>
 
                 <!--Events section-->
                 <section id="events">
                     <h2>Events</h2>
-                    <p>The Events page of the WebDev Club goes here...</p>
+                    <!--p>The Events page of the WebDev Club goes here...</p-->
+                    <div class="schedule speaker">
+                        <h4>19:30</h4>
+                        <h3>The starting of WebDev Club <span>Prof. Anil Roy</span></h3>
+                    </div>
+
+                    <div class="schedule speaker">
+                        <h4>20:00</h4>
+                        <h3>Introduction to Web2.0 <span>Shrey Sanghavi</span></h3>
+                    </div>
                 </section>
 
                 <!--Projects section-->
@@ -84,14 +105,18 @@
                 <!--Members section-->
                 <section id="members">
                     <h2>Community</h2>
-                    <p>The community page of the WebDev club goes here...</p>
+                    <div class="member">
+                        <h3>Mentor <span>Prof. Anil Roy</span></h3>
+                    </div>
                 </section>
 
 
                 <!--Contact section-->
                 <section id="contact">
                     <h2>Contact</h2>
-                    <p>The Contact page of the WebDev club goes here...</p>
+                    <h3>The official IRC Channel is #webdev@daiict on irc.freenode.net.</h3>
+                    <br/>
+                    <h3>You could also drop a mail at <a href="mailto:webdev.daiict@gmail.com">webdev.daiict@gmail.com</a></h3>
                 </section>
             </div>
         </div>
