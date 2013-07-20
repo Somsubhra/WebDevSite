@@ -13,7 +13,7 @@ session_start();
 <br/>
 
 <h3>Content Editor</h5>
-<form id="contentform" action="edit.php" method="post">
+<form id="contentform" action="contents.php" method="post">
 	<h4>Brief description in headline</h4>
 	<textarea id="tagcontent" name="tagcontent" rows=10 cols=100></textarea>
 	<br/>
@@ -25,7 +25,7 @@ session_start();
 <br/>
 
 <h3>Event Adder</h3>
-<form id="eventform" action="addevent.php" method="post">
+<form id="eventform" action="event.php" method="post">
 	<h4>Time</h4>
 	<input type="time" id="timecontent" name="timecontent"/>
 	<br/>
