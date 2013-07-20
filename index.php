@@ -80,7 +80,7 @@
                 <section id="join">
                     <h2>Join</h2>
                     <h3>To join us at WebDev club fill in the details below</h3>
-                    <form id="joinform" method="post" target="pages/join.php">
+                    <form id="joinform" method="post" action="php/join.php">
                         <br/><br/>
 
                         <input type="text" id="name" name="name" placeholder="Enter you name here"></input>
@@ -111,19 +111,29 @@
                 <!--Projects section-->
                 <section id="projects">
                     <h2>Projects</h2>
-                    <div class="project">
-                        <h4>Sample Project
-                        <h3><span>We did a sample project</span></h3>
-                    </div>
+                    <?php
+                        if($project_content){
+                            while($result = mysql_fetch_assoc($project_content)){
+                                echo("<div class='project'>");
+                                echo("<h4>".$result['name']."</h4>");
+                                echo("<h3><span>".$result['description']."</span></h3></div>");
+                            }
+                        }
+                    ?>
                 </section>
 
                 <!--Members section-->
                 <section id="members">
                     <h2>Community</h2>
-                    <div class="member">
-                        <h4>Mentor</h4>
-                        <h3><span>Prof. Anil Roy</span></h3>
-                    </div>
+                    <?php
+                        if($member_content){
+                            while($result = mysql_fetch_assoc($member_content)){
+                                echo("<div class='member'>");
+                                echo("<h4>".$result['position']."</h4>");
+                                echo("<h3><span>".$result['name']."</span></h3></div>");
+                            }
+                        }
+                    ?>
                 </section>
 
 

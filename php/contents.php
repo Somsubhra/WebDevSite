@@ -25,6 +25,6 @@
 	$query = "SELECT * FROM member";
 	$member_content = mysql_query($query);
 
-	$project = "SELECT * FROM project";
+	$query = "SELECT * FROM project";
 	$project_content = mysql_query($query);
 ?>
