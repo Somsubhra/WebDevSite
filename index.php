@@ -73,7 +73,7 @@
                 <section id="join">
                     <h2>Join</h2>
                     <h3>To join us at WebDev club fill in the details below</h3>
-                    <form id="joinform">
+                    <form id="joinform" method="post" target="pages/join.php">
                         <br/><br/>
 
                         <input type="text" id="name" name="name" placeholder="Enter you name here"></input>
@@ -83,7 +83,7 @@
                         <br/><br/>
                         <input type="text" id="daiictid" name="daiictid" placeholder="Enter your DA-IICT ID here">
                         <br/><br/>
-                        <input type="submit" target="#" method="get" value="Join!">
+                        <input type="submit" value="Join!">
                     </form>
                 </section>
 
