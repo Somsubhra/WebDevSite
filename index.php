@@ -35,6 +35,7 @@
 <a class="addthis_button_google_plusone_share"></a>
 <a class="addthis_button_compact"></a>
 </div>
+
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=undefined"></script>
 <!-- AddThis Button END -->
     <header>
@@ -58,6 +59,12 @@
                 <a class="section projects" href="#projects">Projects</a>
                 <a class="section members" href="#members">Community</a>
                 <a class="section contact" href="#contact">Contact</a>
+                <a href="https://github.com/ClubWebDev">
+                <img src="img/git.png" style="width:30px; height: 30px;">
+                </a>
+                <a href="https://groups.google.com/forum/#!forum/clubwebdev">
+                <img src="img/forum.png" style="width:30px; height: 30px;">
+                </a>
             </nav>
         </div>
     </header>
