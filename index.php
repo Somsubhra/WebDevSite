@@ -28,7 +28,7 @@
 
 <body>
 <!-- AddThis Button BEGIN -->
-<div class="addthis_toolbox addthis_floating_style addthis_32x32_style" style="left:0px;top:200px;background-color:#555555;">
+<div class="addthis_toolbox addthis_floating_style addthis_32x32_style" style="left:0px;top:300px;background-color:#555555;">
 <a class="addthis_button_facebook"></a>
 <a class="addthis_button_twitter"></a>
 <a class="addthis_button_pinterest_share"></a>
