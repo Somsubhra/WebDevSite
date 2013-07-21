@@ -152,7 +152,7 @@
                     <h2>Contact</h2>
                     <h3>The official IRC Channel is #webdev@daiict on irc.freenode.net.</h3>
 		    <br/>
-		    <h3>The public mailing list is <a href="mailto:clubwebdex@googlegroups.com">clubwebdev@googlegroups.com</h3>
+		    <h3>The public mailing list is <a href="mailto:clubwebdex@googlegroups.com">clubwebdev@googlegroups.com</a></h3>
                     <br/>
                     <h3>You could also drop a mail at <a href="mailto:clubwebdev@gmail.com">clubwebdev@gmail.com</a></h3>
                 </section>
