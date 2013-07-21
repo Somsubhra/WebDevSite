@@ -1,0 +1,17 @@
+.vas{
+    float:left;
+    width:270px;
+    padding:10px;
+}
+.title-head {
+    font-size:18px;
+    font-weight:bold;
+    text-align:left;
+    background-color:#006699;
+    color:#FFFFFF;
+    padding:5px;}
+.feeds-links {
+    text-align:left;
+    padding:5px;
+    border:1px solid #dedede;
+ }
