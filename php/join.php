@@ -24,10 +24,14 @@
 	$email = clean($_POST['email']);
 	$daid = clean($_POST['daiictid']);
 
-	$query = "INSERT INTO joiner(name, daid, email) values('$name','$daid','$email')";
-	$result = mysql_query($query);
+	if($name||$email||$daid){
+		$query = "INSERT INTO joiner(name, daid, email) values('$name','$daid','$email')";
+		$result = mysql_query($query);
 
-	if($result){
+		if($result){
+			header("location: ../index.php");
+		}
+	}else{
 		header("location: ../index.php");
 	}
 ?>
